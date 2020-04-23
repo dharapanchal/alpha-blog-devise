@@ -20,6 +20,17 @@
   margin-top: 25px;
 }
 
+.badge{
+    background-color: lightgrey;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+.input_checkbox input {
+  width: auto !important;
+}
+
 .jumbotron {
   background-image: asset-url('jumbo-copy.jpg');
   background-position: center center;
