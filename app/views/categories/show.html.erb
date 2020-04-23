@@ -1,5 +1,11 @@
 <h1 class="text-center mt-6"> <%= "Category: " + @category.name %> </h1>
 
+  <% if logged_in? and current_user.admin? %>
+    <div class="text-center">
+      <span class="badge"><%= link_to 'Edit category Name', edit_category_path(@category) %> </span>
+    </div>
+  <% end %>
+
   <div class="apple_pagination">
     <%= will_paginate @category_articles, :container => false %>
   </div>
