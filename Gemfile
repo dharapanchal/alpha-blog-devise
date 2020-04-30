@@ -27,6 +27,7 @@ gem 'rails-controller-testing'
 
 gem 'devise'
 gem 'devise-bootstrap-views', '~> 1.0'
+gem 'cancancan'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
