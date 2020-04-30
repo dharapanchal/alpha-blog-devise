@@ -43,7 +43,7 @@
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 
             <%= link_to 'Edit your Profile',edit_user_registration_path, class:"dropdown-item"  %>
-            <%= link_to 'View your Profile',users_path, class:"dropdown-item"  %>
+            <%= link_to 'View your Profile',user_path(current_user), class:"dropdown-item"  %>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">Something else here</a>
           </div>
